@@ -1,0 +1,12 @@
+extends layout
+
+block body
+
+  div(ng-controller='DemoCtrl')
+    div(masonry)
+        div(class='masonry-brick', ng-repeat='device in siteScopeDevices')
+            img(ng-src='{{ device.imageSrc }}', alt='{{ device.name }}')
+            p 
+                b 
+                    font(size='2') 
+                        {{ device.name }}:{{device.type}}
