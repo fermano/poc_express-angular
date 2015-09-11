@@ -33,9 +33,9 @@ angular.module('masonryApp', ['wu.masonry']).
             genSiteScopeDevice("VALENCIA01:CPU:OK"),
             genSiteScopeDevice("VALENCIA01:PING:WARNING"),
             genSiteScopeDevice("VALENCIA01:JBOSS:OK"),
-            genSiteScopeDevice("BARCELONA01:CPU:OK"),
+            genSiteScopeDevice("BENICIA01:CPU:OK"),
             genSiteScopeDevice("BARCELONA01:PING:WARNING"),
-            genSiteScopeDevice("BARCELONA01:TOMCAT:OK"),
+            genSiteScopeDevice("LONDON01:TOMCAT:OK"),
             genSiteScopeDevice("MANCHESTER01:CPU:BAD"),
             genSiteScopeDevice("MANCHESTER01:PING:BAD"),
             genSiteScopeDevice("MANCHESTER01:TOMCAT:WARNING")
